@@ -227,7 +227,6 @@ section {
 /* banner */
 #banner-container {
     background-color: var(--dark-violet);
-    color: ;
     padding-top: 0;
     position: relative;
     padding-left: 0;
@@ -273,10 +272,6 @@ section {
 
 .banner-text {
     order: 1;
-}
-
-.banner-img img {
-    /* transform: scale(1.1); */
 }
 
 /* how grid */
