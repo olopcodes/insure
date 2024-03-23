@@ -45,6 +45,12 @@ ul {
     list-style: none;
 }
 
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
 button {
     all: unset;
     cursor: pointer;
@@ -125,8 +131,9 @@ section {
 
 
 .main-title {
-    font-size: clamp(2.85rem, 6vw, 5rem);
+    font-size: clamp(3rem, 6vw, 5rem);
     max-width: 450px;
+    text-align: center;
 }
 
 .title-box {
@@ -181,6 +188,13 @@ section {
 #banner-container {
     background-color: var(--dark-violet);
     color: var(--bg-color);
+    padding-top: 0;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
 }
 
 .text-lead {
@@ -189,6 +203,13 @@ section {
     margin-bottom: 2rem;
 }
 
+.banner-text {
+    order: 1;
+}
+
+.banner-img img {
+    transform: scale(1.1);
+}
 
 /* how grid */
 .how-grid {
