@@ -28,11 +28,11 @@
 
       <nav class="nav">
         <ul>
-          <li><a href="#">how we work</a></li>
-          <li><a href="#">account</a></li>
-          <li><a href="#">blog</a></li>
+          <li><a href="#banner-container">how we work</a></li>
+          <li><a href="#section-2">about</a></li>
+          <li><a href="#section-3">blog</a></li>
         </ul>
-        <button class="btn btn-cta">view plans</button>
+        <a href="#section-4" class="btn btn-cta">view plans</a>
       </nav>
       <button class="btn btn-hamburger-menu">
         <img src="./images/icon-hamburger.svg" alt="">
@@ -49,18 +49,22 @@
 
   <!-- banner -->
   <section id="banner-container">
+    <img class="bg-svg intro-bg-svg" src="./images/bg-pattern-intro-right-mobile.svg" alt="">
+    <img class="bg-svg intro-svg-left" src="./images/bg-pattern-intro-left-desktop.svg" alt="">
     <div class="banner">
       <div class="banner-text">
-        <div class="heading-border"></div>
-        <h1 class="main-title">
-          humanizing your insurance.
-        </h1>
+        <div class="title-box">
+          <div class="heading-border"></div>
+          <h1 class="main-title">
+            humanizing your insurance.
+          </h1>
+        </div>
         <p class="text-lead">
           Get your life insurance coverage easier and faster. We blend our expertise
           and technology to help you find the plan that’s right for you. Ensure you
           and your loved ones are protected.
         </p>
-        <button class="btn">view plans</button>
+        <a href="#section-4" class="btn">view plans</a>
       </div>
       <div class="banner-img">
         <img src="./images/image-intro-mobile.jpg" alt="">
@@ -147,7 +151,7 @@
         </div>
         <div class="blog-card">
           <div class="content">
-            <h3 class="third-title">Not like other insurance companies
+            <h3 class="third-title">Not like other insurances
             </h3>
             <p class="para">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
@@ -176,148 +180,153 @@
   <section id="section-4" class="plans">
     <div class="plans-container">
       <div class="title-box">
-        <div></div>
+        <div class="heading-border"></div>
         <h2 class="section-title">Our Current Plans</h2>
       </div>
 
-      <div class="plan">
-        <div class="pack-container standard-plan">
-          <div class="header">
-            <p class="title">
-              Starter
-            </p>
-            <div class="price-container">
-              <span>$</span>10
-              <span>/mo</span>
+      <div class="plans-wrapper">
+        <div class="plan">
+          <div class="pack-container standard-plan">
+            <div class="header">
+              <p class="title">
+                Starter
+              </p>
+              <div class="price-container">
+                <span>$</span>10
+                <span>/mo</span>
+              </div>
+            </div>
+            <div>
+              <ul class="lists">
+                <li class="list">
+                  <span>
+                    <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
+                    </svg>
+                  </span>
+                  <p>
+                    2 team members
+                  </p>
+                </li>
+                <li class="list">
+                  <span>
+                    <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
+                    </svg>
+                  </span>
+                  <p>
+                    100+ components
+                  </p>
+                </li>
+                <li class="list">
+                  <span>
+                    <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
+                    </svg>
+                  </span>
+                  <p>
+                    2 month free updates
+                  </p>
+                </li>
+                <li class="list">
+                  <span>
+                    <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
+                    </svg>
+                  </span>
+                  <p>
+                    Life time technical support
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="button-container">
+              <button type="btn">
+                Buy Now
+              </button>
             </div>
           </div>
-          <div>
-            <ul class="lists">
-              <li class="list">
-                <span>
-                  <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
-                  </svg>
-                </span>
-                <p>
-                  2 team members
-                </p>
-              </li>
-              <li class="list">
-                <span>
-                  <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
-                  </svg>
-                </span>
-                <p>
-                  100+ components
-                </p>
-              </li>
-              <li class="list">
-                <span>
-                  <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
-                  </svg>
-                </span>
-                <p>
-                  2 month free updates
-                </p>
-              </li>
-              <li class="list">
-                <span>
-                  <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
-                  </svg>
-                </span>
-                <p>
-                  Life time technical support
-                </p>
-              </li>
-            </ul>
-          </div>
-          <div class="button-container">
-            <button type="button">
-              Buy Now
-            </button>
+        </div>
+
+        <div class="plan">
+          <div class="pack-container ">
+            <div class="header">
+              <p class="title">
+                premium
+              </p>
+              <div class="price-container">
+                <span>$</span>24
+                <span>/mo</span>
+              </div>
+            </div>
+            <div>
+              <ul class="lists">
+                <li class="list">
+                  <span>
+                    <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
+                    </svg>
+                  </span>
+                  <p>
+                    10 team members
+                  </p>
+                </li>
+                <li class="list">
+                  <span>
+                    <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
+                    </svg>
+                  </span>
+                  <p>
+                    300+ components
+                  </p>
+                </li>
+                <li class="list">
+                  <span>
+                    <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
+                    </svg>
+                  </span>
+                  <p>
+                    2 month free updates
+                  </p>
+                </li>
+                <li class="list">
+                  <span>
+                    <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
+                    </svg>
+                  </span>
+                  <p>
+                    Life time technical support
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="button-container">
+              <button type="btn">
+                Buy Now
+              </button>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="plan">
-        <div class="pack-container ">
-          <div class="header">
-            <p class="title">
-              premium
-            </p>
-            <div class="price-container">
-              <span>$</span>24
-              <span>/mo</span>
-            </div>
-          </div>
-          <div>
-            <ul class="lists">
-              <li class="list">
-                <span>
-                  <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
-                  </svg>
-                </span>
-                <p>
-                  10 team members
-                </p>
-              </li>
-              <li class="list">
-                <span>
-                  <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
-                  </svg>
-                </span>
-                <p>
-                  300+ components
-                </p>
-              </li>
-              <li class="list">
-                <span>
-                  <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
-                  </svg>
-                </span>
-                <p>
-                  2 month free updates
-                </p>
-              </li>
-              <li class="list">
-                <span>
-                  <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.5 12.75l6 6 9-13.5" stroke-linejoin="round" stroke-linecap="round"></path>
-                  </svg>
-                </span>
-                <p>
-                  Life time technical support
-                </p>
-              </li>
-            </ul>
-          </div>
-          <div class="button-container">
-            <button type="button">
-              Buy Now
-            </button>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
   <section id="section-5 section-side">
+
     <div class="side-container">
+      <img class="side-svg bg-svg" src="./images/bg-pattern-how-we-work-mobile.svg" alt="">
       <h2 class="section-title">
         find out more about how we work.
       </h2>
@@ -327,6 +336,7 @@
   </section>
 
   <footer id="footer" class="footer">
+
     <div class="footer-container">
       <div class="footer-title-box">
         <img src="./images/logo.svg" alt="logo">
@@ -391,11 +401,13 @@
 
         </ul>
 
-        <p class="footer-copy">
-          <small>insure &copy; 2024. olopcodes.</small>
-        </p>
+
       </div>
+
     </div>
+    <p class="footer-copy">
+      <small>insure &copy; 2024. olopcodes.</small>
+    </p>
   </footer>
 
   <!-- mobile nav -->
