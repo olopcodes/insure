@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://olopcodes.github.io/insure/)
+- Live Site URL: [https://olopcodes.github.io/insure/](click the link)
 
 ## My process
 
